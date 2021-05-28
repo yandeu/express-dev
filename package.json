@@ -5,6 +5,9 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "type": "module",
+  "engines": {
+    "node": "^14.15 || >=16"
+  },
   "scripts": {
     "start": "npm run dev",
     "dev": "npm run build && npm-run-all --parallel dev:*",
@@ -30,7 +33,15 @@
     "rimraf": "^3.0.2",
     "typescript": "^4.3.2"
   },
-  "engines": {
-    "node": ">=15"
-  }
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yandeu/express-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yandeu/express-dev/issues"
+  },
+  "homepage": "https://github.com/yandeu/express-dev#readme"
 }
