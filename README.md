@@ -13,6 +13,8 @@ _For now, there is only one._
 - Automatically opens your browser.
 
 ```js
+import { ExpressListen } from '@yandeu/express-dev'
+
 const listen = new ExpressListen(app)
 const openBrowser = true
 
